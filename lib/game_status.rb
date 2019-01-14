@@ -10,8 +10,7 @@ def won?(board)
     loc2 = win_combo[1]
     loc3 = win_combo[2]
     
-    board[loc1] == board[loc2] && board[loc2] == board[loc3] &&
-    board[loc1] != " "
+    board[loc1] == board[loc2] && board[loc2] == board[loc3] 
     end
 end
 
